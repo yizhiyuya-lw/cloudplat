@@ -1,0 +1,5 @@
+com.lw.cloudplat.common.core.config.RedisTemplateConfiguration
+com.lw.cloudplat.common.core.config.RestTemplateConfiguration
+com.lw.cloudplat.common.core.config.JacksonConfiguration
+com.lw.cloudplat.common.core.config.WebMvcConfiguration
+com.lw.cloudplat.common.core.util.SpringContextHolder
