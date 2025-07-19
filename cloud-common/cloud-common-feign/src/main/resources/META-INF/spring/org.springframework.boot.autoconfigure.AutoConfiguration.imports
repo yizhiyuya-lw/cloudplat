@@ -1,0 +1,3 @@
+com.lw.cloudplat.common.feign.CloudFeignAutoConfiguration
+com.lw.cloudplat.common.feign.sentinel.SentinelAutoConfiguration
+com.lw.cloudplat.common.feign.sentinel.handle.GlobalBizExceptionHandler

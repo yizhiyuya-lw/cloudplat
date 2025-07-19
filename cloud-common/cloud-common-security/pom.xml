@@ -23,6 +23,11 @@
             <artifactId>hutool-extra</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.lw</groupId>
+            <artifactId>cloud-upms-api</artifactId>
+        </dependency>
+
         <!--common utils-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

@@ -1,0 +1,6 @@
+com.lw.cloudplat.admin.api.feign.RemoteClientDetailsService
+com.lw.cloudplat.admin.api.feign.RemoteDictService
+com.lw.cloudplat.admin.api.feign.RemoteLogService
+com.lw.cloudplat.admin.api.feign.RemoteParamService
+com.lw.cloudplat.admin.api.feign.RemoteTokenService
+com.lw.cloudplat.admin.api.feign.RemoteUserService

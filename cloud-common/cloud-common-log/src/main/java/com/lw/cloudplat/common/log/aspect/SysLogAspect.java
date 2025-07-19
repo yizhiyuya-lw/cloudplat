@@ -21,7 +21,7 @@ import org.aspectj.lang.reflect.MethodSignature;
 @RequiredArgsConstructor
 public class SysLogAspect {
 
-    @Around("@annotation(sysLog)")
+    /*@Around("@annotation(sysLog)")
     @SneakyThrows
     public Object around(ProceedingJoinPoint point, SysLog sysLog) {
         String strClassName = point.getTarget().getClass().getName();
@@ -35,5 +35,6 @@ public class SysLogAspect {
             MethodSignature signature = (MethodSignature) point.getSignature();
 
         }
-    }
+        return null;
+    }*/
 }

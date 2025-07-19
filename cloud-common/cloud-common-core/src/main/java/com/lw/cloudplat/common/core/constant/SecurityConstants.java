@@ -15,4 +15,11 @@ public interface SecurityConstants {
      * 标志
      */
     String FROM = "from";
+
+    String CODE_SIZE = "6";
+
+    /**
+     * 验证码有效期,默认 60秒
+     */
+    long CODE_TIME = 60;
 }
