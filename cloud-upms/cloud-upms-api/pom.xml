@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.lw</groupId>
-        <artifactId>cloud-common</artifactId>
+        <artifactId>cloud-upms</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>cloud-common-log</artifactId>
+    <artifactId>cloud-upms-api</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -18,25 +18,16 @@
             <artifactId>cloud-common-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-extra</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-http</artifactId>
+            <groupId>com.lw</groupId>
+            <artifactId>cloud-common-feign</artifactId>
         </dependency>
         <dependency>
             <groupId>com.lw</groupId>
-            <artifactId>cloud-upms-api</artifactId>
-        </dependency>
-        <!--安全依赖获取上下文信息-->
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-core</artifactId>
+            <artifactId>cloud-common-mybatis</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-oauth2-core</artifactId>
+            <groupId>com.lw</groupId>
+            <artifactId>cloud-common-excel</artifactId>
         </dependency>
     </dependencies>
 

@@ -15,6 +15,7 @@
         <module>cloud-common</module>
         <module>cloud-auth</module>
         <module>cloud-gateway</module>
+        <module>cloud-upms</module>
     </modules>
 
     <properties>
