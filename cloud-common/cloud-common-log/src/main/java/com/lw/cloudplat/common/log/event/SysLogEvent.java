@@ -1,5 +1,6 @@
 package com.lw.cloudplat.common.log.event;
 
+import com.lw.cloudplat.admin.api.entity.SysLog;
 import org.springframework.context.ApplicationEvent;
 
 /**
@@ -8,7 +9,7 @@ import org.springframework.context.ApplicationEvent;
  */
 public class SysLogEvent extends ApplicationEvent {
 
-    public SysLogEvent(Object source) {
+    public SysLogEvent(SysLog source) {
         super(source);
     }
 }
